@@ -80,9 +80,13 @@ NGN is distributed as minified JavaScript. Since this can be difficult to troubl
 
 All core releases are shipped as `ngn`, while plugin releases are shipped to the npm registry under the `@ngnjs` organization.
 
-1. @author.io/ngn (current)
+1. ngn (current)
    - index.min.js
-2. @author.io/ngn-debug
+2. ngn-debug
+   - index.min.js.map
+3. @ngnjs/plugin
+   - index.min.js
+4. @ngnjs/plugin-debug
    - index.min.js.map
 
 These releases are also available through popular CDN's (who support npm).
